@@ -1,0 +1,5 @@
+p=int(input())
+r=int(input())
+t=int(input())
+CI= p * (1 + r/100) ** (100 * t)
+print("Compount Interest is:",CI)
